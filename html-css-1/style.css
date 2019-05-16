@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 5vh;
+    background: gray;
+    color: white;
+}
+
+#header-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    color: inherit;
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#company-name {
+    margin-left: 5%;
+    letter-spacing: 1px;
+}
+
+#nav-text {
+    display: flex;
+    justify-content: space-around;
+    width: 25vw;
+    color: inherit;
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.black-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 27vh;
+    font-family: 'Exo', sans-serif;
+}
+
+#the-more-you-know {
+    font-size: 55px;
+    color: rgb(241, 241, 105);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: whitesmoke;
+    height: 59vh;
+    width: 100vw;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 35%;
+    width: 100vw;
+}
+
+.blue-box {
+    background: aquamarine;
+    opacity: .8;
+    height: 87%;
+    width: 23%;
+    border-radius: 10%;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 33%;
+    width: 100vw;
+}
+
+.orange-rectangle {
+    height: 85%;
+    width: 33%;
+    background: orange;
+    opacity: .6;
+    flex-grow: 1;
+    margin: 6%;
+    margin-bottom: .5%;
+}
+
+#rectangle-1 {
+    margin-right: 2%;
+}
+
+#rectangle-2 {
+    margin-left: 2%;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 27%;
+    width: 100vw;
+}
+
+#text {
+    font-size: 70%;
+    line-height: 95%;
+    margin-left: 3%;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+img {
+    max-height: 80%;
+    width: auto;
+    margin-right: 8%;
+}
+
+footer {
+    background: rgb(57, 49, 73);
+    height: 9vh;
+}
